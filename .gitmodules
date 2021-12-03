@@ -1,0 +1,3 @@
+[submodule "SonicShTrainer/external/ProcessMemory"]
+	path = SonicShTrainer/external/ProcessMemory
+	url = git@github.com:MainMemory/ProcessMemory.git
