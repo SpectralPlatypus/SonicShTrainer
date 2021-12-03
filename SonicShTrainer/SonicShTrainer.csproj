@@ -94,7 +94,6 @@
     </Compile>
     <None Include="external\ProcessMemory\.gitattributes" />
     <None Include="external\ProcessMemory\.gitignore" />
-    <None Include="external\ProcessMemory\ProcessMemory\ProcessMemory.csproj" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -109,8 +108,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="external\ProcessMemory\ProcessMemory.sln" />
-    <Content Include="external\ProcessMemory\ProcessMemory\ProcessMemory.csproj.user" />
     <Content Include="media\light.png" />
     <Content Include="media\yahoo.wav" />
   </ItemGroup>
