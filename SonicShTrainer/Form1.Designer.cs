@@ -42,6 +42,11 @@ namespace SonicShTrainer
             this.mapLabel = new System.Windows.Forms.Label();
             this.randLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.labelVelocity = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.labelDemo = new System.Windows.Forms.Label();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -50,9 +55,9 @@ namespace SonicShTrainer
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.processStateLabel});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 172);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 186);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(304, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(303, 22);
             this.statusStrip1.TabIndex = 4;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -134,8 +139,9 @@ namespace SonicShTrainer
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::SonicShTrainer.Properties.Resources.light;
-            this.pictureBox1.Location = new System.Drawing.Point(262, 140);
+            this.pictureBox1.Location = new System.Drawing.Point(261, 154);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(30, 29);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -143,11 +149,62 @@ namespace SonicShTrainer
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(150, 64);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 13);
+            this.label3.TabIndex = 18;
+            this.label3.Text = "Velocity:";
+            // 
+            // labelVelocity
+            // 
+            this.labelVelocity.AutoSize = true;
+            this.labelVelocity.Location = new System.Drawing.Point(194, 64);
+            this.labelVelocity.Name = "labelVelocity";
+            this.labelVelocity.Size = new System.Drawing.Size(13, 13);
+            this.labelVelocity.TabIndex = 19;
+            this.labelVelocity.Text = "  ";
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(12, 135);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(123, 35);
+            this.button4.TabIndex = 20;
+            this.button4.Text = "Demo Timer (F4)";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(150, 94);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 13);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "Demo Timer:";
+            // 
+            // labelDemo
+            // 
+            this.labelDemo.AutoSize = true;
+            this.labelDemo.Location = new System.Drawing.Point(217, 94);
+            this.labelDemo.Name = "labelDemo";
+            this.labelDemo.Size = new System.Drawing.Size(13, 13);
+            this.labelDemo.TabIndex = 22;
+            this.labelDemo.Text = "  ";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 194);
+            this.ClientSize = new System.Drawing.Size(303, 208);
+            this.Controls.Add(this.labelDemo);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.labelVelocity);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.randLabel);
             this.Controls.Add(this.mapLabel);
@@ -181,6 +238,11 @@ namespace SonicShTrainer
         private System.Windows.Forms.Label mapLabel;
         private System.Windows.Forms.Label randLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelVelocity;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labelDemo;
     }
 }
 
